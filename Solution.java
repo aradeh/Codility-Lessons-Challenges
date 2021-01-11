@@ -11,10 +11,10 @@ class Main {
   public static void main(String[] args) {
     String[] S = {"test1", "test2a", "test2b", "test3"};
     String[] R = {"OK", "Wrong answer", "OK", "OK"};
-    System.out.println(getMinimumMoves(S, R));
+    System.out.println(getTestScore(S, R));
   }
 
-  public static int getMinimumMoves(String[] S, String[] R){
+  public static int getTestScore(String[] S, String[] R){
 
         Map<String,List<String>> map = new HashMap<String,List<String>>();
 
